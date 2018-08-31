@@ -1,0 +1,4 @@
+source venv/bin/activate #activate local enveroment
+
+#we can add all packeges to file and download them by using command
+pip install -r <filename>

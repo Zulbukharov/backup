@@ -1,0 +1,17 @@
+httpie библиотека для осуществления htpp запросов с устройства
+
+http <method> <url> <key=value>
+
+1. methods = [get, post, delete, put, update]
+
+2. url of server
+
+3. some data sends by client to server:
+- "If-Match":"etag" if uses put metod
+
+usefull tricks:
+
+http <url>\?embedded='{"users":1}' #get first element of array of sheme
+htpp <url>\?where='{"name":"John"}' #find user with nameJohn
+
+echo '[{"username": "userone", "firstname": "First", "lastname":"Last"},{"username":"usertwo", "firstname":"First", "lastname":"Last"}]'
